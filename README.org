@@ -1,0 +1,35 @@
+#+TITLE:   Booti
+#+DATE:    February 12, 2020
+#+SINCE:   0.0.1
+#+STARTUP: inlineimages nofold
+
+* Table of Contents :TOC_3:noexport:
+- [[#description][Description]]
+  - [[#maintainers][Maintainers]]
+- [[#features][Features]]
+- [[#configuration][Configuration]]
+- [[#troubleshooting][Troubleshooting]]
+
+* Description
+This project will "boot" a new project, creating the proper scaffolding for various projects and languages - or calling the relevant commands.
+
++ Call relevant command, if one exists.
++ Customizeable for different languages and frameworks, eg. select various
+  dependencies for spring boot projects.
++ Extensible. Perhaps you'd like to provide a custom template for python to
+  automatically create a new pipenv and pull in mamba and expects.
+
+** Maintainers
++ @afsharalex (Author)
+
+* Features
+
++ Call relevant command, if one exists.
++ Customizeable for different languages and frameworks, eg. select various
+  dependencies for spring boot projects.
++ Extensible. Perhaps you'd like to provide a custom template for python to
+  automatically create a new pipenv and pull in mamba and expects.
+
+* Configuration
+
+* Troubleshooting
