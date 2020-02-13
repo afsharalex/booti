@@ -9,7 +9,7 @@
   '(rails spring-boot))
 
 ;;; TODO: It may be smarter to use a macro to actually generate the function
-;;; storing some logic, or parameters in a assoc list.
+;;; storing some logic, or rules, for creating the scaffolding in a assoc list.
 (defvar *framework-scaffold-commands*
   '((rails #'scaffold-rails)
     (spring-boot #'scaffold-spring-boot)))
